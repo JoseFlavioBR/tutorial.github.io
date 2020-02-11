@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="app">
+        <header>
+            <h1>Micro-aplicacão para escutar algumas músicas no navegador</h1>
+            <p>Aperte qualquer quadrado abaixo e escute alguma música</p>
+        </header>
+
+        <div class="visual"></div>
+
+        <div class="pads">
+            <div class="pads1">
+                <p style="text-align:center ;margin-top: 35px;"><b>Imagine Dragons <br> Bad Liar</p></b>
+                <audio class="sound" src="musicas/bad-liar.mp3"></audio>
+            </div>
+            <div class="pads2">
+                <p style="text-align:center ;margin-top: 35px;"><b>Billie Elish <br>Everithyng I Wanted</p></b>
+                <audio class="sound" src="musicas/everything-wanted.mp3"></audio>
+            </div>
+            <div class="pads3">
+                <p style="text-align:center ;margin-top: 35px;"><b>Imagine Dragons<br>Birds</p></b>
+                <audio class="sound" src="musicas/birds.mp3"></audio>
+            </div>
+            <div id="stopButton" class="padsTop"><p style="margin-top: 45px; margin-left: 100px;">
+                STOP
+            </p></div>
+        </div>
+
+
+    </div>
+
+<script src="index.js">
+</script>
+
+</body>
+
+</html>
